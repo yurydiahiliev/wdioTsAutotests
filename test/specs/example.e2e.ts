@@ -1,5 +1,5 @@
-import LoginPage from '../../login.page'
-import SecurePage from '../../secure.page'
+import LoginPage from '../../login.page.ts'
+import SecurePage from '../../secure.page.ts'
 
 describe('My Login application', () => {
     it('should login with valid credentials', async () => {
