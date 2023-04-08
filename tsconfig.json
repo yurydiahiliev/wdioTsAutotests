@@ -11,6 +11,8 @@
             "expect-webdriverio",
             "@wdio/mocha-framework"
         ],
-        "target": "es2022"
-    }
+        "target": "es2022",
+    },
+    "include": ["/**/*.ts"],
+    "exclude": ["node_modules"]
 }
